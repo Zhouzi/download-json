@@ -1,26 +1,26 @@
-# download-json
+# save-json-file
 
-Download a JSON object to a file.
+Save a JSON object to a file.
 
 ## Installation
 
 ```
-yarn add download-json
+yarn add save-json
 ```
 
 ## Usage
 
-download-json exports a function accepting two parameters:
+This package exports a function accepting two parameters:
 
-1. **json**: the json object to download
+1. **json**: the json object to save
 2. **filename** (optional, defaults to "untitled"): the file name
 
 **Example:**
 
 ```
-import downloadJSON from 'download-json';
+import saveJSON from 'save-json-file';
 
-downloadJSON([
+saveJSON([
     {
         label: 'Publish npm package',
         isDone: false

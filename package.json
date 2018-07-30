@@ -1,6 +1,6 @@
 {
-  "name": "download-json",
-  "version": "0.1.0",
+  "name": "save-json-file",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "scripts": {
     "prebuild": "rm -rf dist",
@@ -10,7 +10,7 @@
   "files": [
     "dist"
   ],
-  "repository": "git@github.com:Zhouzi/download-json.git",
+  "repository": "git@github.com:Zhouzi/save-json-file.git",
   "author": "Gabin Aureche <hello@gabinaureche.com>",
   "license": "MIT",
   "devDependencies": {
