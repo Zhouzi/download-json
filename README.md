@@ -5,7 +5,7 @@ Save a JSON object to a file.
 ## Installation
 
 ```
-yarn add save-json
+yarn add save-json-file
 ```
 
 ## Usage
