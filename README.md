@@ -1,6 +1,6 @@
 # save-json-file
 
-Save a JSON object to a file.
+Save a JSON object to a file in a browser environment.
 
 ## Installation
 
