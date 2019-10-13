@@ -1,6 +1,6 @@
 export default function(json, filename = 'untitled') {
     const str = `data:text/json;charset=utf-8,${encodeURIComponent(
-        JSON.stringify(json, null, 2)
+        JSON.stringify(json)
     )}`;
     const anchor = window.document.createElement('a');
 
